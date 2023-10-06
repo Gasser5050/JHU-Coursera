@@ -1,0 +1,80 @@
+* {
+    box-sizing:border-box;
+    font-family:cursive;
+    font-size: 16px;
+}
+
+/*header start*/
+
+#header-nav {
+    background-color: gray;
+    border: 0;
+    border-radius: 0; 
+}
+
+header .container {
+    padding-bottom: 8px;
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: -5px;;
+    margin-bottom: 5px;
+}
+
+h1.brand {
+    color: black;
+    font-size: 1.8em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1.brand a:hover {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle ,.navbar-header .icon-bar {
+    border: 1px solid red;
+    clear:both
+}
+
+#nav-list a {
+    color: black;
+    font-size: 1.5em;
+    margin-top: -12px;
+    padding-right: 0;    
+}
+
+#collapsable-nav {
+    margin-top: 8px;
+    margin-bottom: -14px;
+    text-align: center;    
+}
+
+/*header end*/
+
+
+/*body start*/
+
+h2.M {
+    margin-top: 5px;
+    margin-bottom: -12px;    
+}
+
+h2.head {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#main-container .row{
+    border: 1px solid black;
+    box-shadow: 0 0 20px 0;
+    background-color: lightgray;
+    margin: 25px;
+    padding: 15px;   
+}
+
+#main-container .row div {
+    font-size: 1.5em;    
+}
+
+/*body end*/
